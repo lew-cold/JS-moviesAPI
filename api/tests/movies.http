@@ -1,0 +1,47 @@
+http://localhost:3000/test
+
+###
+http://localhost:3000/movies
+
+###
+POST http://localhost:3000/movies
+Content-type: application/json
+
+{
+    "title": "Superman",
+    "rating":
+        {
+            "code": "U",
+            "description": "Universal"
+        },
+    "yearReleased": 2001,
+    "description": "A man saves the world.",
+    "comments": [
+        {"body": "People dres up in fancy dress and do good"},
+        {"body": "Move aside Harvey Weinstein"}
+    ],
+    "director": "5b29b6dc53a0f5091007a080"
+}
+
+###
+
+PUT http://localhost:3000/movies
+Content-type: application/json
+
+{
+    "title": "Superman",
+    "rating":
+        {
+            "code": "U",
+            "description": "Universal"
+        },
+    "yearReleased": 2001,
+    "description": "A man saves the world.",
+    "comments": [
+        {"body": "People dres up in fancy dress and do good"},
+        {"body": "Move aside Harvey Weinstein"}
+    ],
+    "director": "5b29b6dc53a0f5091007a080"
+}
+
+

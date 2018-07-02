@@ -1,0 +1,28 @@
+POST http://localhost:7000/auth/register
+Content-Type: application/json
+
+###
+
+POST http://localhost:7000/auth/register
+Content-Type: application/json
+
+{
+    "email": "john@lewis.com",
+    "password": "password1"
+}
+
+###
+
+POST http://localhost:7000/auth/
+Content-Type: application/json
+
+{
+    "email": "john@lewis.com",
+    "password": "password1"
+}
+
+###
+
+http://localhost:7000/movies
+Content-Type: application/type
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvaG5AbGV3aXMuY29tIiwiaWF0IjoxNTMwMjUzMTI4LCJleHAiOjE1MzA4NTc5MjgsInN1YiI6IjViMzVjZWYzMTgzNDBjZjVkYjNlNDk0MCJ9.fxhQS2JHPTCQhDy5Equ4MNPeCktI0r0_bcNue_yi-50
